@@ -10,7 +10,7 @@ The pipeline is described in:
 - Dede, AJO, Cross, ZR, Gray, SM, Kelly, JP, Yin, Q, Vahidi, P, Asano, E, Schuele, SU, Rosenow, JM, Wu, JY, Lam, SK, Raskin, JS, Lin, JJ, Kim McManus, O, Sattar, S, Shaikhouni, A, King-Stephens, D, Weber, PB, Laxer, KD, Brunner, P, Roland, JL, Saez, I, Girgis, F, Knight, RT, Ofen, N, Johnson, EL. Declarative memory through the lens of single-trial peaks in high frequency power. _bioRxiv_ (2025). [DOI](https://doi.org/10.1101/2025.01.02.631123)
 
 Software:
-- MATLAB 8.6 (R2021b-R2025a)
+- MATLAB 8.6 (R2021b; last tested with R2024b)
 - FieldTrip (last tested with fieldtrip-20250114) - [download](https://www.fieldtriptoolbox.org/download/)
 - FreeSurfer 7.1 - [download](https://surfer.nmr.mgh.harvard.edu/fswiki/DownloadAndInstall)
 
