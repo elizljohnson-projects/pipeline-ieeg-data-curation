@@ -1,5 +1,4 @@
-# pipeline-ieeg-data-curation
-**Pipeline for curating intracranial EEG data**
+## Pipeline for curating intracranial EEG data
 
 Our research aims to uncover mechanistic explanations of the neural basis of human behavior, that is, move from where to how. Our goals are multifaceted: (1) advance fundamental science by discovering new knowledge using rigorous, reproducible methods; and (2) advance translational applications in neurotechnology, precision medicine, and product development that are grounded in rigorous science. Intracranial EEG (iEEG) is an invaluable tool to study the human brain because it provides data with the high spatiotemporal resolution and signal quality traditionally limited to animal neurophysiology. Wrangling iEEG data is complex because the data come from neurosurgical patients, typically with medication-resistant epilepsy, and every dataset is different. With careful cleaning to remove seizure-related data, iEEG data can represent healthy brain activity. 
 
