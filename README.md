@@ -6,9 +6,10 @@ These scripts read and process raw iEEG data to standardize and prepare the data
 
 The pipeline is described in:
 - Johnson, EL, Lin, JJ, King-Stephens, D, Weber, PB, Laxer, KD, Saez, I, Girgis, F, D’Esposito, M, Knight, RT, Badre, D. A rapid theta network mechanism for flexible information encoding. _Nature Communications_ 14 (2023). [DOI](https://doi.org/10.1038/s41467-023-38574-7)
-- Rau, EMB, Fellner, M-C, Heinen, R, Zhang, H, Yin, Q, Vahidi, P, Kobelt, M, Asano, E, Kim McManus, O, Sattar, S, Lin, JJ, Auguste, KI, Chang, EF, King-Stephens, D, Weber, PB, Laxer, KD, Knight, RT, Johnson, EL, Ofen, N, Axmacher, N. Reinstatement and transformation of memory traces for recognition. _Science Advances_ 11 (2025). [DOI](https://doi.org/10.1126/sciadv.adp9336)
 - Cross, ZR, Gray, SM, Dede, AJO, Rivera, YM, Yin, Q, Vahidi, P, Rau, EMB, Cyr, C, Holubecki, AM, Asano, E, Lin, JJ, Kim McManus, O, Sattar, S, Saez, I, Girgis, F, King-Stephens, D, Weber, PB, Laxer, KD, Schuele, SU, Rosenow, JM, Wu, JY, Lam, SK, Raskin, JS, Chang, EF, Shaikhouni, A, Brunner, P, Roland, JL, Braga, RM, Knight, RT, Ofen, N, Johnson, EL. The development of aperiodic neural activity in the human brain. _Nature Human Behaviour_ (2025). [DOI](https://doi.org/10.1038/s41562-025-02270-x)
+- Rau, EMB, Fellner, M-C, Heinen, R, Zhang, H, Yin, Q, Vahidi, P, Kobelt, M, Asano, E, Kim McManus, O, Sattar, S, Lin, JJ, Auguste, KI, Chang, EF, King-Stephens, D, Weber, PB, Laxer, KD, Knight, RT, Johnson, EL, Ofen, N, Axmacher, N. Reinstatement and transformation of memory traces for recognition. _Science Advances_ 11 (2025). [DOI](https://doi.org/10.1126/sciadv.adp9336)
 - Dede, AJO, Cross, ZR, Gray, SM, Kelly, JP, Yin, Q, Vahidi, P, Asano, E, Schuele, SU, Rosenow, JM, Wu, JY, Lam, SK, Raskin, JS, Lin, JJ, Kim McManus, O, Sattar, S, Shaikhouni, A, King-Stephens, D, Weber, PB, Laxer, KD, Brunner, P, Roland, JL, Saez, I, Girgis, F, Knight, RT, Ofen, N, Johnson, EL. Declarative memory through the lens of single-trial peaks in high frequency power. _bioRxiv_ (2025). [DOI](https://doi.org/10.1101/2025.01.02.631123)
+- Shi, L, Chattopadhyay, K, Gray, SM, Yarbrough, JB, King-Stephens, D, Saez, I, Girgis, F, Shaikhouni, A, Schuele, SU, Rosenow, JM, Asano, E, Knight, RT, Johnson, EL. Distributed theta networks support the control of working memory: Evidence from scalp and intracranial EEG. _bioRxiv_ (2025). [DOI](https://doi.org/10.1101/2025.08.14.670214)
 
 Software:
 - MATLAB 8.6 (R2021b; last tested with R2024b)
@@ -22,3 +23,4 @@ Notes:
 - Function #1 requires FieldTrip templates of the standard MNI brain (which are too big for GitHub) - [download](https://drive.google.com/file/d/1qWP-v-ytWxXUuKWydSksg1X1hvZjBi8P/view?usp=sharing)
 - Function #4 timestamps the data and is necessarily task-specific. It corresponds to the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git). It may be used as a template for other tasks, permitting read in from the outputs of function #3 and read out to function #5.
 - All other functions are task-agnostic.
+- These functions assume that events were marked using a photodiode sensor. For a step-by-step guide to build one, see photodiode_how_to.
