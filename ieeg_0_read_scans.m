@@ -16,8 +16,8 @@ function ieeg_0_read_scans(sid)
 %
 % Ensure FreeSurfer home directory is correct in top section of function.
 % 
-% FreeSurfer steps take hours to days. Use of a high-performance compute
-% cluster or similar is recommended.
+% FreeSurfer steps take hours to days. High-performance computing is
+% recommended.
 %
 % Inputs:
 % sid = subject ID (e.g., 'NM01')
@@ -228,3 +228,4 @@ ft_volumewrite(cfg, ct_acpc_f);
 close all
 
 end
+
