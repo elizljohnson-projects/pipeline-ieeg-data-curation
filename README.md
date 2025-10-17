@@ -23,4 +23,5 @@ Notes:
 - Function #1 requires FieldTrip templates of the standard MNI brain (which are too big for GitHub) - [download](https://drive.google.com/file/d/1qWP-v-ytWxXUuKWydSksg1X1hvZjBi8P/view?usp=sharing)
 - Function #4 timestamps the data and is necessarily task-specific. It corresponds to the [working memory delayed match to sample experimental paradigm](https://github.com/elizljohnson-projects/paradigm-working-memory-dms.git). It may be used as a template for other tasks, permitting read in from the outputs of function #3 and read out to function #5.
 - All other functions are task-agnostic.
-- These functions assume that events were marked using a photodiode sensor. For a step-by-step guide to build one, see `photodiode_how_to`.
+- Steps in `ieeg_0_read_scans.m` and `ieeg_5_clean_data.m` take hours or days. High-performance computing is recommended.
+- The functions assume that events were marked using a photodiode sensor. For a step-by-step guide to build one, see `photodiode_how_to`.
