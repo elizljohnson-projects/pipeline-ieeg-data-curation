@@ -8,8 +8,8 @@ function ieeg_5_clean_data(sid, task)
 %   addpath <path to fieldtrip home directory>
 %   ft_defaults
 %
-% Filtering steps take minutes to hours. Use of a high-performance compute
-% cluster or similar is recommended.
+% Filtering steps take minutes to hours. High-performance computing is
+% recommended.
 %
 % Inputs:
 % sid = subject ID (e.g., 'NM01')
@@ -133,3 +133,4 @@ disp(' '); disp('Saving clean data...')
 save(fullfile(savdir, [sid '_data_clean']), 'data');
 
 end
+
