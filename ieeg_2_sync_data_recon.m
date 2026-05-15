@@ -37,7 +37,7 @@ elec = load(fullfile(datdir_recon, [sid '_elec_mni_frv']));
 elec = elec.elec_mni_frv;
 
 % match channel labels in data to channel labels in recon
-[~, idx_data, idx_elec] = intersect(lower(data.label), lower(elec.label));
+[~, idx_data, idx_elec] = intersect(lower(data.label), lower(elec.label), 'stable');
 
 cfg = [];
 cfg.channel = idx_data; % subselect data channels
